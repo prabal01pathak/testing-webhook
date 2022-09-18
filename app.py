@@ -13,7 +13,7 @@ async def root():
 async def hook(request: Request) -> dict:
     """ accept webhook"""
     data = await request.json()
-    print(data)
+    print(data, indent=4)
     return {"Message": "successfully registerd"}
 
 
