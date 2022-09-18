@@ -10,7 +10,7 @@ async def root():
     return {"message": "Hello world"}
 
 @app.post("/hook")
-async def hook(request: Request) -> dict:
+async def hook(request: Request, json_data: dict=None,) -> dict:
     """ accept webhook"""
     data = await request.json()
     with open("file.json", "w", encoding="utf-8") as _f:
