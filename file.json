@@ -1,7 +1,7 @@
 {
     "ref": "refs/heads/master",
-    "before": "d19350a7b86dfdd2659be0500cd39e021128b77d",
-    "after": "57114d0eadcdf69164873ced1704861a2c37874a",
+    "before": "57114d0eadcdf69164873ced1704861a2c37874a",
+    "after": "3e5c3eff5494a4b41ab6d5ecdc0f8e71b359b031",
     "repository": {
         "id": 537846463,
         "node_id": "R_kgDOIA7ivw",
@@ -72,7 +72,7 @@
         "deployments_url": "https://api.github.com/repos/prabal01pathak/testing-webhook/deployments",
         "created_at": 1663427767,
         "updated_at": "2022-09-18T09:54:28Z",
-        "pushed_at": 1663497478,
+        "pushed_at": 1663497591,
         "git_url": "git://github.com/prabal01pathak/testing-webhook.git",
         "ssh_url": "git@github.com:prabal01pathak/testing-webhook.git",
         "clone_url": "https://github.com/prabal01pathak/testing-webhook.git",
@@ -139,15 +139,15 @@
     "deleted": false,
     "forced": false,
     "base_ref": null,
-    "compare": "https://github.com/prabal01pathak/testing-webhook/compare/d19350a7b86d...57114d0eadcd",
+    "compare": "https://github.com/prabal01pathak/testing-webhook/compare/57114d0eadcd...3e5c3eff5494",
     "commits": [
         {
-            "id": "57114d0eadcdf69164873ced1704861a2c37874a",
-            "tree_id": "2e44c36525f548a435798a1d475b2d2170115156",
+            "id": "3e5c3eff5494a4b41ab6d5ecdc0f8e71b359b031",
+            "tree_id": "beb53bdb3d1c8e7243ae9121b0fd5cb7ea722a57",
             "distinct": true,
-            "message": "fixed json object",
-            "timestamp": "2022-09-18T16:07:47+05:30",
-            "url": "https://github.com/prabal01pathak/testing-webhook/commit/57114d0eadcdf69164873ced1704861a2c37874a",
+            "message": "added commit",
+            "timestamp": "2022-09-18T16:09:42+05:30",
+            "url": "https://github.com/prabal01pathak/testing-webhook/commit/3e5c3eff5494a4b41ab6d5ecdc0f8e71b359b031",
             "author": {
                 "name": "Prabal Pathak",
                 "email": "prabal01pathak@gmail.com",
@@ -158,22 +158,20 @@
                 "email": "prabal01pathak@gmail.com",
                 "username": "prabal01pathak"
             },
-            "added": [
-                "file.json"
-            ],
+            "added": [],
             "removed": [],
             "modified": [
-                "app.py"
+                "file.json"
             ]
         }
     ],
     "head_commit": {
-        "id": "57114d0eadcdf69164873ced1704861a2c37874a",
-        "tree_id": "2e44c36525f548a435798a1d475b2d2170115156",
+        "id": "3e5c3eff5494a4b41ab6d5ecdc0f8e71b359b031",
+        "tree_id": "beb53bdb3d1c8e7243ae9121b0fd5cb7ea722a57",
         "distinct": true,
-        "message": "fixed json object",
-        "timestamp": "2022-09-18T16:07:47+05:30",
-        "url": "https://github.com/prabal01pathak/testing-webhook/commit/57114d0eadcdf69164873ced1704861a2c37874a",
+        "message": "added commit",
+        "timestamp": "2022-09-18T16:09:42+05:30",
+        "url": "https://github.com/prabal01pathak/testing-webhook/commit/3e5c3eff5494a4b41ab6d5ecdc0f8e71b359b031",
         "author": {
             "name": "Prabal Pathak",
             "email": "prabal01pathak@gmail.com",
@@ -184,12 +182,10 @@
             "email": "prabal01pathak@gmail.com",
             "username": "prabal01pathak"
         },
-        "added": [
-            "file.json"
-        ],
+        "added": [],
         "removed": [],
         "modified": [
-            "app.py"
+            "file.json"
         ]
     }
 }
