@@ -1,5 +1,5 @@
 # pprint module
-from pprint import pprint as print
+import json
 from fastapi import FastAPI, Request
 
 app = FastAPI()
@@ -13,7 +13,7 @@ async def root():
 async def hook(request: Request) -> dict:
     """ accept webhook"""
     data = await request.json()
-    print(data, indent=4)
+    print(json.dumps(data, indent=4))
     return {"Message": "successfully registerd"}
 
 
