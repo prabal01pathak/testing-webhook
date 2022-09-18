@@ -10,8 +10,8 @@ async def root():
 @app.post("/hook")
 async def hook(request: Request) -> dict:
     """ accept webhook"""
-    print(dir(request))
-    print(request.json())
+    data = await request.json()
+    print(data)
     return {"Message": "successfully registerd"}
 
 
