@@ -14,3 +14,8 @@ async def hook(request: Request) -> dict:
     return {"Message": "successfully registerd"}
 
 
+@app.get("/name")
+async def get_name(request: Request) -> dict:
+    """ return name """
+    print(request.base_url)
+    return {"name": "prabal pathak"}
